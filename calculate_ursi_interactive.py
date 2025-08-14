@@ -85,7 +85,7 @@ fig.add_hline(y=70, line_dash="dash", line_color="gray", line_width=1,
 fig.add_hline(y=30, line_dash="dash", line_color="gray", line_width=1,
               annotation_text="30 - Oversold", annotation_position="right")
 
-# Add shaded regions
+# Add shaded regions -test
 fig.add_hrect(y0=70, y1=100, fillcolor="green", opacity=0.2, 
               layer="below", line_width=0)
 fig.add_hrect(y0=0, y1=30, fillcolor="lightpink", opacity=0.3,
